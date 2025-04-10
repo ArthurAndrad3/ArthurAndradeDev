@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dracula-background: #282a36;
+  --color-dracula-headerCard: #44475a;
+  --color-dracula-inputBubble: #6272a4;
+  --color-dracula-secondText: #aab2d5;
+  --color-dracula-text: #f8f8f2;
+  --color-dracula-cyan: #8be9fd;
+  --color-dracula-green: #50fa7b;
+  --color-dracula-orange: #ffb86c;
+  --color-dracula-pink: #ff79c6;
+  --color-dracula-purple: #bd93f9;
+  --color-dracula-red: #ff5555;
+  --color-dracula-yellow: #f1fa8c;
+  --color-dracula-gray: #6272a4;
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+ background-color: #282a36;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+
+}
+
+
